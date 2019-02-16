@@ -1,0 +1,7 @@
+Pour compiler le code en entier faire :
+    make
+
+Pour executer le code d'un dossier faire:
+    make exec VERSION=NOM_DU_DOSSIER (exemple make exec VERSION=cuda)
+
+

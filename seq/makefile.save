@@ -1,0 +1,16 @@
+SRCS = neutron-seq.c
+OBJS = $(SOURCES:%.c=%.o)
+
+CC = gcc
+CFLAGS = -Wall -O3
+LIBS = -lm
+
+all: ${OBJS}
+
+
+neutron-seq.o :
+	$(CC) $(CFLAGS) $< -o $@ $(OBJECTS) $(LIBS)
+
+clean:
+	rm -f ${OBJS}
+

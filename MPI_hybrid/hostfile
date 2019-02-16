@@ -1,0 +1,9 @@
+# Toute ligne commencant pas un dièse
+# est considérée comme un commentaire
+#
+# Notre machine est composée de 2 noeuds
+PPTI-gpu-3
+PPTI-gpu-1
+
+
+
